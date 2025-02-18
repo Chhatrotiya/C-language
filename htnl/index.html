@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.r {
+accent-color: red;
+width: 1000px;
+height: 100px;
+}
+</style>
+<body>
+    <input onchange="fun()" max="70" min="0" class="r" type="range">
+</body>
+<script>
+ var a = document.querySelector(".r");
+  
+  function fun() {
+    console.log(a.value)
+    
+    if(a.value < 30 ) {
+     a.style.accentColor = "green";
+    }
+    else if(a.value < 50) {
+        a.style.accentColor = "blue";
+    }
+    else if(a.value < 70) {
+        a.style.accentColor = "red";
+    }
+  }
+</script>
+</html>

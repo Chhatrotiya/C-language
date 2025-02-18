@@ -1,0 +1,5 @@
+1	jay	it
+2	ayush	it
+3	abrar	ce
+4	kripal	ce
+5	vardhman	electrical
